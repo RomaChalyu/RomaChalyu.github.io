@@ -1,26 +1,32 @@
-@font-face {
-    font-family: 'NunitoSans-Light';
-    src: url("../../fonts/NunitoSans-Light.ttf");
+
+//-------------------------------------------------FONT----------------------------------------------------------------
+
+@font-face{
+    font-family: "OpenSans";
+    src : url("../../fonts/Open\ Sans\ -\ Regular\ .ttf");
 }
 
-@font-face {
-    font-family: 'Montserrat-Regular';
-    src: url("../../fonts/Montserrat-Regular.otf");
+@font-face{
+    font-family: "OpenSans-Semibold";
+    src : url("../../fonts/Open\ Sans\ -\ Semibold.ttf");
+}
+@font-face{
+    font-family: "SourceSansPro";
+    src : url("../../fonts/SourceSansPro-Regular.otf");
 }
 
-@font-face {
-    font-family: 'Montserrat-Light';
-    src: url("../../fonts/Montserrat-Light.otf");
-}
-$color-main : #10c9c3; 
-$color-background : #eceaea;
-$color-black: black;
-$color-white: white;
+
+//-------------------------------------------------COLOR----------------------------------------------------
+
+$orange : #ff5c36;
+$orange-light: #fc6744;
+$text-gray: #626262;
+$background : #fbfbfb;
+$gray: #d3d3d3;
 
 
-$for-phone-min : 375px;
+//-------------------------------------------------MEDIA SCREEN VARIABLE---------------------------------------------------
 
-$for-phone : 425px;
-
-$for-tablet : 768px;
-
+$phone : 425px;
+$tablet : 768px;
+$desktop : 1024px;
